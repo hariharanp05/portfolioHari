@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 const Navs = () => {
   return (
     <div id='nabr'>
-    <Navbar expand="md" className="bg-body-tertiary">
+    <Navbar expand="md" className="bg-body-tertiary w-100">
       <Container id='navbs'>
         <Navbar.Brand href="#home"><h1 className='text-primary'>Hariharan </h1></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

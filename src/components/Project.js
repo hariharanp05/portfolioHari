@@ -8,9 +8,9 @@ const Project = () => {
 
         <h2 className="h1 text-primary text-center m-3 pb-4">Projects</h2>
         <Container>
-            <Row>
+            <Row className='justify-content-center align-items-center'>
                 <Col md={6} lg={4} className='mb-2'>
-                <Card style={{ width:'18rem'}}>
+                <Card style={{ width:'18rem',marginLeft:'25px'}} >
                     <Card.Img variant='top' src={require('../assets/img/Salesforce-Logo.png')} />
                     <Card.Body>
                         <Card.Title>CRM Application for Schools and Colleges</Card.Title>
@@ -22,7 +22,7 @@ const Project = () => {
                 </Card>
                 </Col>
                 <Col md={6} lg={4} className='mb-2'>
-                <Card style={{ width:'18rem'}}>
+                <Card style={{ width:'18rem',marginLeft:'25px'}}>
                     <Card.Img variant='top' src={require('../assets/img/ecom.png')} />
                     <Card.Body>
                         <Card.Title>E-Commerce Website</Card.Title>
@@ -33,7 +33,7 @@ const Project = () => {
                     </Card.Body>
                 </Card></Col>
                 <Col md={6} lg={4} className='mb-2'>
-                <Card style={{ width:'18rem'}}>
+                <Card style={{ width:'18rem',marginLeft:'25px'}}>
                 <Card.Img variant='top' src={require('../assets/img/calc.png')} />
                     <Card.Body>
                         <Card.Title>Basic Calculator</Card.Title>
@@ -46,7 +46,7 @@ const Project = () => {
             
             
                 <Col md={6} lg={4} className='mb-2'>
-                <Card style={{ width:'18rem'}}>
+                <Card style={{ width:'18rem',marginLeft:'25px'}}>
                     <Card.Img variant='top' src={require('../assets/img/Recipe.png')} />
                     <Card.Body>
                         <Card.Title>Recipe book</Card.Title>
@@ -58,7 +58,7 @@ const Project = () => {
                 </Card>
                 </Col>
                 <Col md={6} lg={4} className='mb-2'>
-                <Card style={{ width:'18rem'}}>
+                <Card style={{ width:'18rem',marginLeft:'25px'}}>
                     <Card.Img variant='top' src={require('../assets/img/login.png')} />
                     <Card.Body>
                         <Card.Title>Login and Signup Page</Card.Title>
@@ -69,7 +69,7 @@ const Project = () => {
                     </Card.Body>
                 </Card></Col>
                 <Col md={6} lg={4} className='mb-2'>
-                <Card style={{ width:'18rem'}}>
+                <Card style={{ width:'18rem',marginLeft:'25px'}}>
                     <Card.Img variant='top' src={require('../assets/img/rest.png')} />
                     <Card.Body>
                         <Card.Title>Pugazh's Restuarant</Card.Title>
@@ -82,7 +82,7 @@ const Project = () => {
             
             
             <Col md={6} lg={4} className='mb-2'>
-                <Card style={{ width:'18rem'}}>
+                <Card style={{ width:'18rem',marginLeft:'25px'}}>
                     <Card.Img variant='top' src={require('../assets/img/techy.png')} />
                     <Card.Body>
                         <Card.Title>Techy Solution</Card.Title>
