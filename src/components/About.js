@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="about"className=' my-5'>
         <h2 className="h1 text-primary text-center mb-3">ABOUT ME</h2>
-        <p className="lead text-muted px-2 text-center">I'm a passionate and dedicated front-end developer with a strong foundation in creating responsive and visually sppealing websites.</p>
+        <p className="lead text-muted px-2 text-center">I'm a passionate and dedicated front-end developer with a strong foundation in creating responsive and visually appealing websites.</p>
         <p className="lead text-muted px-2 text-center">With a solid understanding of HTML, CSS, JavaScript and Bootstrap, I have honed my skills in building dynamic and user-friendly interfaces.</p>
         <h2 className='text-center'>Education</h2>
         <Container className='align-items-center justify-content-center'>
