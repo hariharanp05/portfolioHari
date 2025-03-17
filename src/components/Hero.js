@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Col, Container, Image, Row } from 'react-bootstrap'
-import resume from '../assets/hariharanResume.pdf'
+import resume from '../assets/hariResume070503.pdf'
 
 const Hero = () => {
   return (
