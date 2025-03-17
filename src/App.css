@@ -31,5 +31,8 @@ ul li::before{
    display: block;
    padding: 5px 10px;
 }
-
+#foot{
+  background-color: black;
+  color: white;
+}
 
